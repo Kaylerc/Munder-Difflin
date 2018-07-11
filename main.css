@@ -1,0 +1,58 @@
+.nav-wrapper {
+  background-color: #f3a683;
+}
+
+.nav-wrapper-logo {
+  font-family:
+}
+
+.body {
+  background-color: #f19066;
+}
+
+/* .main-img {
+  align-items: center;
+} */
+
+.b-container {
+max-width: 100%;
+margin: 0 auto;
+}
+
+
+.footer-grid {
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: 20px;
+
+}
+
+#reviews-banner {
+background-color: #f5cd79;
+padding: 40px 40px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+  padding: 20px
+}
+
+.sale-grid {
+  display:flex;
+  /* grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 20px;
+  padding: 20px */
+}
+
+.fit {
+            width: 100%;
+            height: 100%;
+
+/* display: grid;
+grid-template-rows: 185px 200px;
+grid-template-columns: 280px 280px 280px;
+grid-gap: 15px; */
