@@ -48,11 +48,12 @@ function mouseOut() {
 
  function mouseOver4() {
    document.getElementById('pic4').style.opacity=0.5;
-   
+   document.getElementById('text4').style.opacity=1;
  }
 
  function mouseOut4() {
    document.getElementById('pic4').style.opacity=1;
+   document.getElementById('text4').style.opacity=0;
  }
  // ++++++++++++pic5++++
  document.getElementById('pic5').addEventListener('mouseover', mouseOver5);
@@ -60,10 +61,12 @@ function mouseOut() {
 
  function mouseOver5() {
    document.getElementById('pic5').style.opacity=0.5;
+   document.getElementById('text5').style.opacity=1;
  }
 
  function mouseOut5() {
    document.getElementById('pic5').style.opacity=1;
+   document.getElementById('text5').style.opacity=0;
  }
  // +++++++++++++pic6+++
  document.getElementById('pic6').addEventListener('mouseover', mouseOver6);
@@ -71,8 +74,10 @@ function mouseOut() {
 
  function mouseOver6() {
    document.getElementById('pic6').style.opacity=0.5;
+   document.getElementById('text6').style.opacity=1;
  }
 
  function mouseOut6() {
    document.getElementById('pic6').style.opacity=1;
+   document.getElementById('text6').style.opacity=0;
  }
