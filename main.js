@@ -29,7 +29,7 @@ function mouseOut() {
 
  // +++++++++++++pic3+++
  document.getElementById('pic3').addEventListener('mouseover', mouseOver3);
- document.getElementById('text3').addEventListener('mouseout', mouseOut3);
+ document.getElementById('pic3').addEventListener('mouseout', mouseOut3);
 
  function mouseOver3() {
   document.getElementById('pic3').style.opacity=0.5;
@@ -41,13 +41,14 @@ function mouseOut() {
    document.getElementById('text3').style.opacity=0;
    }
 
-   
+
  // +++++++++++++pic4+++
  document.getElementById('pic4').addEventListener('mouseover', mouseOver4);
  document.getElementById('pic4').addEventListener('mouseout', mouseOut4);
 
  function mouseOver4() {
    document.getElementById('pic4').style.opacity=0.5;
+   
  }
 
  function mouseOut4() {
