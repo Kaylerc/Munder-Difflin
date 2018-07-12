@@ -9,6 +9,11 @@ html {
 
 }
 
+
+.brand-color {
+  color: #109fb2;
+}
+
 .nav-wrapper-logo {
   font-family:
 }
@@ -86,7 +91,7 @@ color: #208d9b;
     grid-template-rows: 300px 300px;
     grid-template-columns: auto auto auto;
     grid-gap: 15px;
-    padding-left: 40px;
+    padding-left: 5px;
 }
 
 button {
