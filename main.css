@@ -1,5 +1,12 @@
+html {
+  font-family: comfortaa;
+}
+
+
 .nav-wrapper {
   background-color: #f3a683;
+  color: #109fb2;
+
 }
 
 .nav-wrapper-logo {
@@ -10,49 +17,96 @@
   background-color: #f19066;
 }
 
-/* .main-img {
-  align-items: center;
+#main-img {
+  text-align: center;
+}
+
+.animated {
+   animation-duration: 4s !important;
+ }
+
+/* w3schools.com/hlogoowto/howto_css/_image_text.asp */
+.basket {
+  position:relative;
+  text-align: center;
+  color: #109fb2;
+  font-size: 30px;
+}
+
+.centered {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+
+
+/* #text {
+
 } */
 
-.b-container {
-max-width: 100%;
-margin: 0 auto;
+
+.hidden {
+opacity: 0;
 }
+  /* .b-container {
+  max-width: 100%;
+  margin: 0 auto;
+  } */
 
 
 .footer-grid {
 display: grid;
 grid-template-columns: auto auto auto auto;
 grid-template-rows: 20px;
-
+padding-left: 11.5%;
 }
 
 #reviews-banner {
 background-color: #f5cd79;
 padding: 40px 40px;
+color: #208d9b;
 }
 
+
+
 .reviews-grid {
+  margin-bottom: -8%;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  grid-gap: 20px;
-  padding: 20px
+  grid-gap: 80px;
+  padding: 10px;
 }
 
 .sale-grid {
-  display:flex;
-  /* grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 300px 300px;
-  grid-gap: 20px;
-  padding: 20px */
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    padding-left: 40px;
 }
 
-.fit {
-            width: 100%;
-            height: 100%;
+button {
+margin-left: 5px;
+vertical-align: center;
+}
 
-/* display: grid;
-grid-template-rows: 185px 200px;
-grid-template-columns: 280px 280px 280px;
-grid-gap: 15px; */
+.sale-wrap {
+  background-color: #c44569;
+}
+
+
+/* .reviews-grid {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+} */
+
+  .pic-size {
+  height: 100%;
+  width: 90%;
+  }
